@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>TEST</title>
+     <!-- permet de gerer les accents -->
+     <meta charset="utf-8">
+     <!-- permet  de lier ave le style.css"-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+       <!-- titre dans la page -->
+            <h1>H1</h1>
+            <h1>deuxieme balise H1</h1>
+            <h2 class="greenText" id="background">H2</H2>
+            <h2>deuxieme balise H2</h2>
+            <h3 class="greenText brownBackground">H3</h3>
+            <h4 id="purpleText">H4</h4>
+            <h5 class="greenText">H5</h5>
+            <h6>H6</h6>
+
+       <!-- si la meta charset n'est pas set, obliger de mettre &eacute; pour affiché un 'é'-->
+        ligne 1
+        <br/>
+        ligne 2
+            <p class="greenText">Paragraphe éà &eacute;</p>
+            <!-- lien -->
+            <a href="https://www.google.fr">mon lien</a>
+            <img src="Toulon.jpg" width="100"/>
+
+            <!-- Tableau -->
+
+            <table border="1px">
+               <tr>
+                    <td>ligne 1 col 1</td>
+                    <td>ligne 1 col 2</td>
+                    <td>ligne 1 col 3</td>
+               </tr>
+               <tr>
+                    <td>ligne 2 col 1</td>
+                    <td colspan="2" bgcolor=#ff0000">ligne 2 col 2</td>
+               </tr>
+               <tr>
+                    <td colspan="3">ligne complete</td>
+               </tr>
+               <tr>
+                    <td>ligne 1 col 1</td>
+                    <td>ligne 1 col 2</td>
+                    <td rowspan="2">
+                           <img src="assets/Toulon.jpg" width="60">
+                    </td>
+               </tr>
+               <tr>
+                    <td>ligne 1 col 1</td>
+                    <td>ligne 1 col 2</td>
+               </tr>
+               </table>
+               <!-- listes-->
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+
+                <ol>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ol>
+
+           <!-- inputs -->
+            <input type="text" name="test">
+            <br>
+            <input type="password" name="password">
+            <br>
+
+            <input type="checkbox" name="check" checked> choix 1
+            <br>
+            <input type="checkbox" name="check"> choix 2
+            <br>
+            <input type="checkbox" name="check"> choix 3
+            <br>
+
+            <input type="radio" name="radio" checked> choix 1
+            <br>
+            <input type="radio" name="radio"> choix 2
+            <br>
+            <input type="radio" name="radio"> choix 3
+            <br>
+            <form>
+                <button>clique moi</button>
+            </form>
+            </body>
+            </html>
